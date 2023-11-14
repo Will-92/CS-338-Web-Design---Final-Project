@@ -1,0 +1,169 @@
+:root {
+    background-color: #050a30;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: #050a30 !important;
+   
+}
+#header {
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    background-color: #050a30;
+    color: white;
+}
+
+.navbar.navbar-light {
+    background-color: white!important;
+    border-bottom: 10px solid #7ec8e3 ;
+    width: 100%;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus , .nav-item .nav-link{
+    color: #050a30 !important;
+}
+
+#nav-item {
+    color: white;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 65%; 
+    left: 24%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #050a30 ;
+  
+   
+}
+
+.card-overlay-2 {
+    position: absolute;
+    top: 70%; 
+    left: 24%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #050a30 ;
+ 
+    
+}
+
+.headshot {
+    border-radius: 15px;
+    margin: 15px;
+    padding: 2px;
+    border-color:#7ec8e3;
+    height: 200px;
+    width: auto;
+    
+}
+
+
+
+#headshot-card {
+    height: 500px;
+    width: auto;
+    opacity: 85%;
+} 
+
+#maincard {
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 5px solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-color:#7ec8e3 !important;
+}
+
+.card {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    color: #050a30 ;
+   
+    background-color:white!important;
+}
+
+.card-container {
+    background-color: #050a30 ;
+    height: 75vh;
+}
+
+.card-container, .btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn-container {
+    margin: 10;
+    padding: 0;
+    background-color: #050a30 ;
+}
+
+.resume-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+ 
+}
+
+.btn-container a.btn.btn-primary {
+    background-color: white !important;
+    border: 3px solid !important;
+    color: #050a30  !important;
+    border-color:#7ec8e3 !important;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#bubiocontainer, #class-container{
+    color: #000C66;
+    background-color: white;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 15px;
+    border: 5px solid !important;
+    border-color: #7ec8e3 !important;
+}
+
+
+#bubiocontainer .col-md-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#class-container-3 {
+    height: 500px;
+    width: 600px; 
+    color: #000C66;
+    background-color: white;
+    border-radius: 15px;
+    border: 5px solid #7ec8e3;
+    padding: 10px;
+    margin-left: 400px;
+    margin-bottom: 200px;
+}
+
+#cs-video {
+    width: 100%;
+    height: 100%;
+}
+
+
